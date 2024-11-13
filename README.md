@@ -29,9 +29,7 @@ yarn # (for unit-test cases only)
 # Update Libraries
 npm i
 
-
 ### For Test-cases (otherwise ignore)
-
 # Move to GitHub Writer branch.
 git checkout github-writer
 
