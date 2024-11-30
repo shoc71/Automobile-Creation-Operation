@@ -18,6 +18,9 @@ Program is written using Javascript and Typescript(5.4.5).
 Open up [bash](https://www.youtube.com/watch?v=3eu67g3PTdk) for Windows. Terminal for Mac & Linux.
 
 ```sh
+# Re-routing to store the program on Desktop
+cd Document/GitHub/
+
 # Clone the git repo.
 git clone git@github.com:shoc71/Automobile-Creation-Operation.git
 
@@ -28,6 +31,9 @@ yarn # (for unit-test cases only)
 
 # Update Libraries
 npm i
+
+# Building from typescript (original code)
+npm run build
 
 ### For Test-cases (otherwise ignore)
 # Move to GitHub Writer branch.

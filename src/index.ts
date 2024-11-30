@@ -12,16 +12,7 @@ const vehicles = [];
 // const truck1 = new Truck(Cli.generateVin(),"red", "Ford", "F-150", 2021, 5000, 120, [], 10000);
 
 // will use default wheels
-const car1 = new Car(
-  Cli.generateVin(),
-  'blue',
-  'Toyota',
-  'Camry',
-  2021,
-  3000,
-  130,
-  []
-);
+const car1 = new Car(Cli.generateVin(), 'blue', 'Toyota', 'Camry', 2021, 3000, 130, []);
 
 // TODO: uncomment once motorbikes are implemented
 // const motorbike1Wheels = [new Wheel(17, "Michelin"), new Wheel(17, "Michelin")];
